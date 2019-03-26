@@ -33,7 +33,7 @@ void List::reverseNode() {
 	node* q;
 	n = NULL;
 	q = NULL;
-	p = head;
+	p = head; 
 	while (p != NULL) {	//p keeps going q get reversing 
 		n = q;		
 		q = p;
