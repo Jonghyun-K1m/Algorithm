@@ -98,7 +98,7 @@ int main(void)
 		scanf("%d", &A[i]);
 	}
 	
-	inPlaceQuickSort(A, 0, n - 1);
+	inPlaceQuickSort(A, 0, n - 1); 
 	printHeap(A, n);
 	return 0;
 }
