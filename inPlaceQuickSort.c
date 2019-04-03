@@ -2,7 +2,7 @@
 #include<time.h> 
 #include<stdlib.h> 
 int n = 100;
-
+ 
 int find_random_pivot(int *w_array,int lefts, int rights) /* */
 {
 
