@@ -79,6 +79,7 @@ public class stackk<T> {
 	public static void main(String[] args) {
 		stackk<Character> stack=new stackk<Character>();
 		Scanner input=new Scanner(System.in);
+	
 		Scanner sin=new Scanner(System.in);
 		
 		boolean run=true;
