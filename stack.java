@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class stackk<T> {
 	
 	class node{
-		private node next;
+		private node next; 
 		private node prev;
-		private node head;
+		private node head; 
 		private T data;
 		public node(T val){
 			this.data = val;
