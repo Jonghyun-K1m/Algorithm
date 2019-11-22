@@ -12,7 +12,7 @@ void bubble(int* arr, int num){
 			}
 		}
 	}
-}
+}//오름차순
 int main() {
 
 	int num;
