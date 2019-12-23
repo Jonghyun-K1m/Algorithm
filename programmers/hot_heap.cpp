@@ -14,9 +14,7 @@ int solution(vector<int> scoville, int K) {
     for(int i=0;i<scoville.size();i++){
         pq.push(scoville[i]);
     }
-    if(pq.empty())cout<<"H";
-    else{
-       while(pq.size()>=2 && pq.top()<K){
+    while(pq.size()>=2 && pq.top()<K){
             first=pq.top();
             pq.pop();
             second=pq.top();
@@ -25,7 +23,6 @@ int solution(vector<int> scoville, int K) {
             second=first+(second*2);
             pq.push(second);
             count++;
-        }
     }
 
 
