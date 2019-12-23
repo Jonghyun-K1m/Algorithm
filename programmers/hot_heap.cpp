@@ -4,6 +4,9 @@
 #include <iostream>
 using namespace std;
 
+/* priority_queue<T, Container, Compare>
+                자료형, 컨테이너, 비교함수 less,greater,custom함수
+*/
 int solution(vector<int> scoville, int K) {
     
     int answer = 0;
