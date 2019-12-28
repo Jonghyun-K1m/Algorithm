@@ -1,7 +1,7 @@
 /*
 
 https://programmers.co.kr/learn/courses/30/lessons/42579
-
+hash 안에 최대,장르넣기까지완료
 */
 
 #include <string>
