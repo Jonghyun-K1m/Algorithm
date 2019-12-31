@@ -24,7 +24,6 @@ int solution(vector<vector<string>> clothes) {
         
     }
     for(it=m.begin();it!=m.end();it++){
-        //cout<<it->first<<it->second<<endl;
         answer=answer*(it->second+1);
     }
     return answer-1;
