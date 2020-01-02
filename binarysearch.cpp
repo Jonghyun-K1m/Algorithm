@@ -22,7 +22,6 @@ int main() {
 			}
 		}
 	}
-	//for (int i = 0; i < n; i++)cout << arr[i];
 	cout << "검색수입력>>";
 	cin >> val;
 	int pl, pr, pc;
