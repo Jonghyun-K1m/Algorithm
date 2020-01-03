@@ -16,7 +16,7 @@ struct compare_sec{
     (const pair<T1,T2>&left, const pair<T1,T2> &right){
         return P<T2>()(left.second,right.second);
     }
-};
+}; 
 
 vector<int> solution(vector<string> genres, vector<int> plays) {
     vector<int> answer;
@@ -46,9 +46,6 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
     for(iss=vd.begin();iss!=vd.end();iss++){
         cout<<iss->first<<iss->second<<endl;    
     }
-    /*
-    for(it=m.begin();it!=m.end();it++){
-        cout<<it->first<<it->second<<endl;    
-    }*/
+
     return answer;
 }
