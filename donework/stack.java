@@ -52,7 +52,6 @@ public class stackk<T> {
 			top.setprev(tmp);
 			size++;
 		}
-		//System.out.println(in.getdata());
 	}
 	T top() {
 		return top.getdata();
