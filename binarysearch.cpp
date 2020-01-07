@@ -22,7 +22,7 @@ int main() {
 			}
 		}
 	}
-	cout << "검색수입력>>";
+//cout << "검색수입력>>";
 	cin >> val;
 	int pl, pr, pc;
 	int bc = 0, wc = 0;
